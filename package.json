@@ -1,20 +1,30 @@
 {
   "dependencies": {
     "express": "^5.3.0",
-    "modules": "^0.4.0"
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0"
   },
   "name": "practica-express-yan7",
   "version": "1.0.0",
-  "description": "",
+  "description": "API REST CRUD de productos con Express y MySQL/MariaDB.",
   "main": "app.js",
   "directories": {
     "doc": "docs"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "node --test"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "mysql",
+    "api",
+    "crud"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module"
